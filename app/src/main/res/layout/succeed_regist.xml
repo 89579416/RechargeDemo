@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:text="恭喜你注册成功!"
+            android:textSize="24sp"
+            android:textColor="#ff0000"
+            />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <TableRow>
+          <TextView
+              android:id="@+id/resultnumber"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="您的学号为："
+              android:textSize="20sp"
+              />
+
+      </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/resultpsd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="您的密码为："
+                android:textSize="20sp"
+                />
+        </TableRow>
+
+
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/resultschool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="您的所在学校为："
+                android:textSize="20sp"
+                />
+
+        </TableRow>
+
+
+    </TableLayout>
+<Button
+    android:id="@+id/go_login_btn"
+    android:text="去登陆"
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+
+    <ImageView
+        android:background="@drawable/ar"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="220dp"/>
+
+</TableLayout>

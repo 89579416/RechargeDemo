@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/an"
+    >
+    <LinearLayout>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/ao"
+            />
+        <Button
+            android:id="@+id/fun_recharge"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="25dp"
+            android:text="饭卡充值"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+    <LinearLayout>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/ap"
+            />
+        <Button
+            android:id="@+id/fun_demand"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:text="查询余额"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+
+
+
+</TableLayout>

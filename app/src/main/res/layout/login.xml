@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ab"
+    >
+
+        <LinearLayout>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/ac"
+                />
+            <EditText
+                android:id="@+id/login_stunumber"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="25dp"
+                android:hint="请输入学号"
+                android:textSize="24sp"/>
+
+        </LinearLayout>
+        <LinearLayout>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/ad"
+                />
+           <EditText
+               android:id="@+id/login_psd"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="25dp"
+            android:hint="请输入密码"
+            android:textSize="24sp"/>
+
+        </LinearLayout>
+    <CheckBox
+        android:id="@+id/rememberpsd"
+        android:layout_marginLeft="250dp"
+        android:text="记住密码"
+        android:textSize="24sp"/>
+    <LinearLayout>
+        <Button
+            android:id="@+id/lo_login"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="124dp"
+            android:text="登录"
+            android:textSize="24sp"
+            />
+
+    </LinearLayout>
+
+
+
+
+</TableLayout>
